@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+p{
+    font-family: $ff;
+    font-size: $fs-p;
+}
+
+h1{
+    text-align: center;
+    font-size: $fs-header;
+}
+
+figcaption{
+    font-size: $fs-fig;
+}
+
+
+
+
+   
+
+
+.navbar{
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:$color-dark;
+      } 
+    
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: $color-light;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      
+      li a:hover {
+        background-color: $color-dark;
+      }
+    }
+.footer-style{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    li{
+        text-decoration: none;
+    }
+    li p{
+        font-family: $ff;
+        font-size: $fs-p;
+    }
+}
+.sub-title{
+    font-family: $ff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+button{
+    background-color: $color-dark;
+    color: $color-light;
+
+    border-radius: 5px;
+}
+
+.tickets{
+    margin-bottom: 5%;
+}
+
+footer{
+    background-color: $color-dark;
+    color: $color-light;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+}
